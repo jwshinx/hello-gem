@@ -13,11 +13,6 @@ module Hellogem
         x = 12
         x.closest_fibonacci.should be_instance_of(Fixnum)
       end
-      context "when given a number to process" do
-        it "returns the closest fibonacci number" do
-          
-        end
-      end
     end
   end
 end
